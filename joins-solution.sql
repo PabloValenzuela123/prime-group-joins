@@ -46,12 +46,3 @@ JOIN "products"
 ON "warehouse_product"."product_id" = "products"."id"
 WHERE "warehouse_product"."product_id" = '6'
 GROUP BY "products"."description", "warehouse_product"."product_id";
-
-
-
-
-
-
-
-
-
